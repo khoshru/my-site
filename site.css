@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(26, 27, 29);
+    color: rgb(176, 176, 176);
+    padding: 100px 30px;
+    margin: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+.graphic{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 5;
+}
+img{
+width: 100%;
+height: 100%;
+}
+.form{
+    background-color: rgb(32, 35, 37);
+    display: grid;
+    grid-template-columns: 350px;
+    padding:0px 10px;
+}
+h1{
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    color: rgb(255, 255, 255) ;
+}
+button{
+    border-radius: 10px;
+    border-style: none;
+    width: 100px;
+    height: 19px; 
+    align-self: end;
+    margin: 15px 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+form img{
+    width: 30px;
+    height: 30px;
+}
+footer{
+    display: flex;
+    float: left;
+    align-items: center;
+    padding:10px  0px ;
+}
